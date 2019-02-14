@@ -14,17 +14,13 @@ html {
   font-family: sans-serif;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
   margin: 0;
   padding: 0;
-}
-
-.masthead {
-  text-align: center;
 }
 
 .section-dark {
@@ -55,11 +51,14 @@ body {
   display: inline-block;
 }
 
+h1 {
+  text-align: center;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1 {
     text-align: left;
-    margin-left: 1rem;
   }
 
   .nav {
